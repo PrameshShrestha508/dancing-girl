@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+	.container{
+		margin-top: 10%;
+
+
+	}
+.images{
+	text-align: center;
+	height: 250px;
+	width:50%;
+	margin-left:25%;
+	background-image:url(images/disco.jpg); 
+	background-size:cover;
+	border:2px solid violet;
+	}
+
+.btn{
+	background-color:purple;
+	color:white;
+}
+.head{
+	color:white;
+	width:50%;
+	font-size:30px;
+	margin-left:25%;
+	background-color:purple;
+	text-align: center;	
+}
+#myImage{
+	margin-top:145px;
+}
+
+</style>
+<body>
+<div class="container">
+	<div class="head"> Disco Dance:</div>
+	<div class="images">
+		<button class="btn" onclick="document.getElementById('myImage').src='images/dance.gif'">Step1</button>
+		<button class="btn" onclick="document.getElementById('myImage').src='images/dance6.gif'">Step2</button>
+
+
+		<img id="myImage" src="images/dance.gif" style="width:100px">
+
+		<button class="btn" onclick="document.getElementById('myImage').src='images/dance2.gif'">Step3</button>
+		<button class="btn" onclick="document.getElementById('myImage').src='images/dance4.gif'">Step4</button>
+
+		<br>
+		<br>
+	</div>
+
+</div>
+
+</body>
+</html>
